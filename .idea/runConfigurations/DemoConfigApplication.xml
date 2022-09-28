@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DemoConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="default" />
+    <envs>
+      <env name="spring.config.additional-location" value="file:///$PROJECT_DIR$/external/demoConfig.properties" />
+    </envs>
+    <module name="demoConfig" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="demo.DemoConfigApplication" />
+    <extension name="History Recorder Settings" includeConstructors="false" includeGettersSetters="false" minMethodSize="2" maxBreakpointsPerMethod="5" maxBreakpoints="200" maxDepthVariables="3" mode="1" nrCollectionItems="5" includeCollections="true" nrFieldsToShow="10" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

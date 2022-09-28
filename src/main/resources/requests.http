@@ -1,0 +1,10 @@
+###
+POST http://localhost:9024/manage/refresh
+Content-Type: application/json
+
+{}
+
+
+###
+PUT http://localhost:9024/demo
+
